@@ -168,12 +168,12 @@ a {
 .play-instantly-description {
   width: 50%;
 }
-.play-instantly-description > h1{
+.play-instantly-description > h1 {
   font-size: 48px;
   font-weight: 700;
 }
-.play{
-  color:#F948B2;
+.play {
+  color: #f948b2;
   font-size: 48px;
   font-weight: 700;
 }
@@ -198,27 +198,44 @@ a {
 /* play instantly end */
 
 /* career section start */
-.career-container{
+.career-container {
   display: flex;
   width: 100%;
+  height: 500px;
   justify-content: space-around;
-  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-  
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding-top: 50px;
 }
-.career-description-container{
+.career-description-container {
+  width: 50%;
+  padding-left: 50px;
+}
+.career-image-container {
   width: 50%;
 }
-.career-image-container{
-  width: 50%;
-}
-.career-image-container img{
+.career-image-container img {
   width: 100%;
 }
-.career-info{
+.career-info {
   display: flex;
 }
-
-
+.career-container h1,
+p {
+  color: #fff;
+}
+.career {
+  font-size: 48px;
+}
+.btn-see-all {
+  width: 230px;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff42a5;
+  margin-top: 20px;
+}
 /* career section end */
 
 /* main section end */
@@ -279,27 +296,47 @@ a {
   }
   /* online games end */
   /* play instantly start */
-  .play-instantly-container{
+  .play-instantly-container {
     flex-direction: column;
-    
   }
-  .play-instantly-description{
+  .play-instantly-description {
     width: auto;
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
   }
   .play-instantly-image {
-    width:auto;
+    width: auto;
   }
   .play-instantly-image img {
     width: 70%;
     padding-left: 20%;
   }
-  .inner-image{
+  .inner-image {
     width: 50%;
     padding-left: 20%;
   }
+  /* play instantly end */
+  /* career section start */
+  .career-container{
+    flex-direction: column;
+    height: auto;
+  }
+  .career-description-container {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .career-image-container {
+    width: 100%;
+  }
+  .career-image-container img {
+    width: 100%;
+  }
+
+
+
+  /* career section end */
+
 }
 
 /* medium device */
@@ -326,11 +363,16 @@ a {
     text-align: center;
   }
   /* play instantly */
-  .play-instantly-container{
+  .play-instantly-container {
     flex-direction: column;
-    
   }
-  .play-instantly-description{
+  .play-instantly-description {
     margin-bottom: 50px;
+  }
+  /* career section  */
+  .career-container{
+    flex-direction: column;
+    height: auto;
+    align-items: center;
   }
 }
