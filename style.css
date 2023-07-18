@@ -88,7 +88,7 @@ a {
   font-size: 20px;
   font-weight: 500;
 }
-.button-container{
+.button-container {
   margin-top: 30px;
 }
 .btn-sign-in {
@@ -102,8 +102,8 @@ a {
   padding: 20px 40px;
   border: none;
 }
-.btn-go-rough{
-  background-color: #4EC5F7;
+.btn-go-rough {
+  background-color: #4ec5f7;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -125,47 +125,103 @@ a {
 /* main section start */
 /* online games start */
 
-.online-game{
+.online-game {
   text-align: center;
   margin: 100px;
 }
-.online-game h1{
+.online-game h1 {
   font-size: 48px;
   font-weight: 700;
 }
-.online-game p{
-  color: #534C64;
+.online-game p {
+  color: #534c64;
   font-size: 18px;
   font-weight: 400;
 }
-.funny-video{
-  color:#8758F1;
+.funny-video {
+  color: #8758f1;
 }
-.grid-container{
+.grid-container {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(4,1fr
-  );
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
   max-width: 800px;
   margin: 0px auto;
 }
 
-.grid-container img{
-width: 100%;
+.grid-container img {
+  width: 100%;
+}
+/* online games end */
+
+/* play instantly start */
+.play-instantly-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0px auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.play-instantly-description {
+  width: 50%;
+}
+.play-instantly-description > h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+.play{
+  color:#F948B2;
+  font-size: 48px;
+  font-weight: 700;
+}
+.play-instantly-description p {
+  max-width: 250px;
+}
+.play-instantly-image {
+  width: 50%;
+}
+.play-instantly-image img {
+  width: 100%;
+}
+.inner-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  position: relative;
+  top: -150px;
+  left: -100px;
+}
+
+/* play instantly end */
+
+/* career section start */
+.career-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  
+}
+.career-description-container{
+  width: 50%;
+}
+.career-image-container{
+  width: 50%;
+}
+.career-image-container img{
+  width: 100%;
+}
+.career-info{
+  display: flex;
 }
 
 
-
+/* career section end */
 
 /* main section end */
-
-
-
-
-
-
-
 
 /* media query start */
 
@@ -178,7 +234,6 @@ width: 100%;
     flex-direction: column;
     height: 300px;
     align-items: center;
-    
   }
   .nav-about-container {
     flex-direction: column;
@@ -192,37 +247,59 @@ width: 100%;
   }
   /* nav section end */
   /* banner section start */
-  .banner-container{
+  .banner-container {
     flex-direction: column-reverse;
     width: 100%;
     margin-top: 200px;
   }
-  .banner-description{
+  .banner-description {
     margin-top: 50px;
     width: 100%;
     padding: 0px;
     text-align: justify;
-    
   }
-  .banner-image{
+  .banner-image {
     width: 100%;
   }
-  .button-container > .btn-sign-in, .btn-go-rough{
+  .button-container > .btn-sign-in,
+  .btn-go-rough {
     width: auto;
     height: auto;
   }
   /* online games start */
-  .online-game{
+  .online-game {
     margin-top: 200px;
     text-align: center;
   }
-  .grid-container{
-    grid-template-columns: repeat(1,1fr);
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
   }
-  .grid-container p{
+  .grid-container p {
     text-align: center;
   }
   /* online games end */
+  /* play instantly start */
+  .play-instantly-container{
+    flex-direction: column;
+    
+  }
+  .play-instantly-description{
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .play-instantly-image {
+    width:auto;
+  }
+  .play-instantly-image img {
+    width: 70%;
+    padding-left: 20%;
+  }
+  .inner-image{
+    width: 50%;
+    padding-left: 20%;
+  }
 }
 
 /* medium device */
@@ -232,20 +309,28 @@ width: 100%;
     flex-direction: column;
   }
   /* banner section */
-  .banner-container{
+  .banner-container {
     flex-direction: column;
     width: 100%;
     margin-top: 80px;
   }
   /* online game  */
-  .online-game{
+  .online-game {
     margin-top: 200px;
     text-align: center;
   }
-  .grid-container{
-    grid-template-columns: repeat(2,1fr);
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .grid-container p{
+  .grid-container p {
     text-align: center;
+  }
+  /* play instantly */
+  .play-instantly-container{
+    flex-direction: column;
+    
+  }
+  .play-instantly-description{
+    margin-bottom: 50px;
   }
 }
