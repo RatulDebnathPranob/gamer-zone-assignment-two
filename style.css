@@ -154,6 +154,26 @@ a {
     margin-bottom: 20px;
   }
   /* nav section end */
+  /* banner section start */
+  .banner-container{
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 200px;
+  }
+  .banner-description{
+    margin-top: 50px;
+    width: 100%;
+    padding: 0px;
+    text-align: justify;
+    
+  }
+  .banner-image{
+    width: 100%;
+  }
+  .button-container > .btn-sign-in, .btn-go-rough{
+    width: auto;
+    height: auto;
+  }
 }
 
 /* medium device */
@@ -161,5 +181,11 @@ a {
 @media screen and (min-width: 576px) and (max-width: 892px) {
   .nav-container {
     flex-direction: column;
+  }
+  /* banner section */
+  .banner-container{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
   }
 }
