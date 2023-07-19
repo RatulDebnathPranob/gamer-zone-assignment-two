@@ -276,6 +276,44 @@ a {
 }
 /* game section end */
 /* main section end */
+/* footer start  */
+footer{
+  background-color: #c0afeef1;
+}
+.footer-container{
+  max-width: 600px;
+  margin: 0px auto;
+}
+.gamer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-about{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.footeer-logo-container {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  
+}
+.footeer-logo-container span{
+  padding: 30px;
+}
+.footer-terms-container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6,1fr);
+ padding-left: 150px;
+  gap: 100px;
+  
+}
+.copyright{
+  text-align: center;
+  
+}
+/* footer end  */
 
 /* media query start */
 
