@@ -1,3 +1,9 @@
+/* *{
+  margin: 0px;
+} */
+body{
+  margin: 0px;
+}
 /* nav section start */
 
 .nav-container {
@@ -71,7 +77,7 @@ a {
   text-align: justify;
   padding-left: 100px;
 }
-.play {
+.play-goat{
   font-weight: 600;
   font-size: 40px;
 }
@@ -311,7 +317,7 @@ a {
 /* main section end */
 /* footer start  */
 footer{
-  background-color: #c0afeef1;
+  background-color: #6a4db8;
 }
 .footer-container{
   max-width: 600px;
@@ -324,9 +330,24 @@ footer{
   align-items: center;
   justify-content: center;
 }
+.footer-logo{
+  width: 80px;
+  height: 35px;
+
+}
 .footer-about{
   display: grid;
   grid-template-columns: repeat(6,1fr);
+}
+.gamer h1{
+  color: #FFF;
+  font-size: 45px;
+font-weight: 700;
+}
+.footer-about p{
+  color: #FFF;
+font-size: 18px;
+font-weight: 600;
 }
 .footer-logo-container {
   display: grid;
