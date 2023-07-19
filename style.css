@@ -11,7 +11,7 @@ body{
   justify-content: space-around;
   align-items: center;
   height: 130px;
-  background-color: rgb(51, 240, 240);
+  background-color: rgb(255, 255, 255);
 }
 .nav-container a {
   text-decoration: none;
@@ -58,6 +58,9 @@ a {
 }
 .nav-follow-container a {
   padding-left: 20px;
+}
+.fa-youtube{
+  color: red;
 }
 
 /* nav section end */
@@ -274,6 +277,7 @@ a {
   height: 60px;
   border: 2px solid hotpink;
   border-radius: 40px;
+  color: #f948b2;
   
 }
 
@@ -348,14 +352,18 @@ font-weight: 700;
   color: #FFF;
 font-size: 18px;
 font-weight: 600;
+padding: 10px;
 }
-.footer-logo-container {
+.footer-logo-container a{
   display: grid;
   grid-template-columns: repeat(6,1fr);
   
 }
 .footer-logo-container span{
   padding: 30px;
+}
+.logo-white{
+  color: white;
 }
 .footer-terms-container{
   display: grid;
