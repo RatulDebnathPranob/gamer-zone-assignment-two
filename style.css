@@ -219,10 +219,10 @@ a {
 .career-info {
   display: flex;
 }
-.career-container h1,
-p {
+.careerP , .careerh1{
   color: #fff;
 }
+
 .career {
   font-size: 48px;
 }
@@ -237,7 +237,44 @@ p {
   margin-top: 20px;
 }
 /* career section end */
+/* game section start */
 
+.game-section-container{
+  max-width: 800px;
+  margin: 0px auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.game-details-container{
+  display: flex;
+   gap: 50PX;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.game-info{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20PX;
+  
+}
+.game-info img{
+  width: 40px;
+  height: 40px;
+}
+.game-info:hover{
+  cursor: pointer;
+  width: 250px;
+  height: 80px;
+  border: 2px solid hotpink;
+  border-radius: 40px;
+  
+}
+/* game section end */
 /* main section end */
 
 /* media query start */
@@ -333,9 +370,13 @@ p {
     width: 100%;
   }
 
-
-
   /* career section end */
+  /* game section start  */
+.game-details-container{
+ flex-direction: column;
+}
+
+  /* game section end */
 
 }
 
@@ -375,4 +416,8 @@ p {
     height: auto;
     align-items: center;
   }
+  /* game section  */
+  .game-details-container{
+    flex-direction: column;
+   }
 }
