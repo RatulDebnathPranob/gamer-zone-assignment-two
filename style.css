@@ -75,7 +75,7 @@ a {
 .banner-description {
   width: 50%;
   text-align: justify;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 .play-goat{
   font-weight: 600;
@@ -134,7 +134,7 @@ a {
 
 .online-game {
   text-align: center;
-  margin: 100px;
+  margin: 50px;
 }
 .online-game h1 {
   font-size: 48px;
@@ -318,11 +318,13 @@ padding: 10px;
 }
 .footer-logo-container a{
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(3,1fr);
+  
   
 }
 .footer-logo-container span{
   padding: 30px;
+  
 }
 .logo-white{
   color: white;
@@ -379,8 +381,14 @@ padding: 10px;
   .banner-image {
     width: 100%;
   }
-  .button-container > .btn-sign-in,
-  .btn-go-rough {
+  
+  .btn-sign-in{
+    padding-left: 50px;
+    width: auto;
+    height: auto;
+  }
+  .btn-go-rough{
+    margin-left: 0px;
     width: auto;
     height: auto;
   }
@@ -388,9 +396,12 @@ padding: 10px;
   .online-game {
     margin-top: 200px;
     text-align: center;
+    width: 50%;
+    
   }
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
+    width: 80%;
   }
   .grid-container p {
     text-align: center;
@@ -399,6 +410,7 @@ padding: 10px;
   /* play instantly start */
   .play-instantly-container {
     flex-direction: column;
+    width: 80%;
   }
   .play-instantly-description {
     width: auto;
@@ -422,6 +434,8 @@ padding: 10px;
   .career-container{
     flex-direction: column;
     height: auto;
+    width: 100%;
+    margin: 0px auto;
   }
   .career-description-container {
     width: 100%;
@@ -439,7 +453,8 @@ padding: 10px;
 
   .game-section-container{
 grid-template-columns: repeat(3,1fr);
-width: auto;
+/* width: auto; */
+width: 80%;
   }
   .game-info{
     gap: 0px;
@@ -457,7 +472,8 @@ width: auto;
   /* game section end */
 /* footer start  */
 .footer-container{
-  width: auto;
+  /* width: auto; */
+  width: 80%;
   text-align: center;
   
 }
@@ -465,9 +481,9 @@ width: auto;
   grid-template-columns: repeat(3,1fr);
   
 }
-.footer-logo-container{
+/* .footer-logo-container{
   grid-template-columns: repeat(3,1fr);
-}
+} */
 .footer-terms-container{
   grid-template-columns: repeat(2,1fr);
   gap: 0px;
